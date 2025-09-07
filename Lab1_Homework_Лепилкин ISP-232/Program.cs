@@ -5,27 +5,27 @@
         static void Main(string[] args)
         {
             // задание 1
-            //int d = int.Parse(Console.ReadLine());
-            //int s = int.Parse(Console.ReadLine());
-            //Console.WriteLine(d + s);
-            //Console.WriteLine(d - s);
-            //Console.WriteLine(d * s);
-            //Console.WriteLine((double)d / s);
+            int d = int.Parse(Console.ReadLine());
+            int s = int.Parse(Console.ReadLine());
+            Console.WriteLine(d + s);
+            Console.WriteLine(d - s);
+            Console.WriteLine(d * s);
+            Console.WriteLine((double)d / s);
 
             // задание 2
-            //string name = Console.ReadLine();
-            //int age = int.Parse(Console.ReadLine());
-            //string lang = Console.ReadLine();
-            //Console.WriteLine($"Привет,{name}!");
-            //Console.WriteLine($"Тебе {age} лет.");
-            //Console.WriteLine($"Твой любимый язык - {lang}");
+            string name = Console.ReadLine();
+            int age = int.Parse(Console.ReadLine());
+            string lang = Console.ReadLine();
+            Console.WriteLine($"Привет,{name}!");
+            Console.WriteLine($"Тебе {age} лет.");
+            Console.WriteLine($"Твой любимый язык - {lang}");
 
             // задание 3
-            //int a = int.Parse(Console.ReadLine());
-            //int b = int.Parse(Console.ReadLine());
-            //int c = int.Parse(Console.ReadLine());
-            //int x = 5;
-            //Console.WriteLine($"f(x) = {a * x * x + b * x + c}");
+            int a = int.Parse(Console.ReadLine());
+            int b = int.Parse(Console.ReadLine());
+            int c = int.Parse(Console.ReadLine());
+            int x = 5;
+            Console.WriteLine($"f(5) = {a * x * x + b * x + c}");
 
             // задание 4
             Console.Write("Введите ваше имя: ");
