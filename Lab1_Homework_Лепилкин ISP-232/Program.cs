@@ -62,8 +62,6 @@
 
             Console.WriteLine("=== КОНЕЦ ПРОФИЛЯ ===");
 
-            string ends = Console.ReadLine();
-            Console.Write($"что нибудь введите для завершения: {ends}");
 
 
 
